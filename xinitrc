@@ -11,7 +11,6 @@ xinput set-prop <id> "libinput Natural Scrolling Enabled" 1
 
 while true
 do
-        # LOCALTIME=$(date +%Z\=%Y-%m-%dT%H:%M)
         LOCALTIME=$(date +"%B %d %Y %I:%M %p")
 
         xsetroot -name "$LOCALTIME"
