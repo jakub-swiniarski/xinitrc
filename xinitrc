@@ -12,11 +12,10 @@ xinput set-prop <id> "libinput Natural Scrolling Enabled" 1
 while true
 do
         LOCALTIME=$(date +"%B %d %Y %I:%M %p")
-        RAM=$(free -m | grep "Mem:" | awk '{print $3}')
 
-        xsetroot -name "RAM usage: $RAM MB | $LOCALTIME"
+        xsetroot -name "$LOCALTIME"
 
-        sleep 1s
+        sleep 20s
 done &
 
 exec dwm
