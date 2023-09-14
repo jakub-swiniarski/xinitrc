@@ -5,9 +5,10 @@ redshift -P -O 4500
 # xinput --set-prop <id> 'libinput Accel Profile Enabled' 0, 1
 # xinput --set-prop <id> 'libinput Accel Speed' -0.5
 
-# enable natural scrolling for touchpad
+# enable natural scrolling and tapping for touchpad
 # use xinput list to get device id
-xinput set-prop <id> "libinput Natural Scrolling Enabled" 1
+# xinput --set-prop <id> 'libinput Natural Scrolling Enabled' 1
+# xinput --set-prop <id> 'libinput Tapping Enabled' 1
 
 while true
 do
