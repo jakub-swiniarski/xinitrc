@@ -12,7 +12,7 @@ redshift -P -O 4500
 
 while true
 do
-        LOCALTIME=$(date +"%B %d %Y %I:%M %p")
+        LOCALTIME=$(date +"%a %d %B %Y %l:%M %p")
 
         xsetroot -name "$LOCALTIME"
 
