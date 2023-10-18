@@ -4,7 +4,8 @@
 - xorg-server,
 - xorg-xinit,
 - xorg-xinput,
-- xorg-xsetroot.
+- xorg-xsetroot,
+- awk.
 
 ## Usage
 Put the script in your home directory and use the **startx** command to run it.
