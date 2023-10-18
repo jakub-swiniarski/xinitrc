@@ -16,7 +16,7 @@ while true
 do
 	BAT="$(cat /sys/class/power_supply/BAT0/capacity)%"
 	CPU_TEMP="$(($(cat /sys/class/thermal/thermal_zone9/temp)/1000))C"
-	MEM="$(free | grep Mem | awk '{print $3/$2 * 100.0}')%"
+	MEM="$(free | grep Mem | awk '{print int($3/$2 * 100.0)}')%"
 	LOCALTIME=$(date +"%a %d %B %Y %l:%M %p")
 
 	xsetroot -name "BAT: $BAT | CPU TEMP: $CPU_TEMP | USED MEM: $MEM | TIME: $LOCALTIME"
