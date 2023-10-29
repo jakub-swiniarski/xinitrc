@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# feh --bg-scale <path to image>
 redshift -P -O 4500
 
 # disable mouse acceleration and lower the sensitivity
@@ -24,4 +25,5 @@ do
 	sleep 20s
 done &
 
+picom -b
 exec dwm
