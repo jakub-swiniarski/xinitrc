@@ -1,6 +1,7 @@
 ## Prerequisites:
 - redshift,
 - [dwm](https://github.com/jakub-swiniarski/dwm),
+- picom,
 - xorg-server,
 - xorg-xinit,
 - xorg-xinput,
