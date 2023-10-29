@@ -2,6 +2,7 @@
 - redshift,
 - [dwm](https://github.com/jakub-swiniarski/dwm),
 - picom,
+- feh,
 - xorg-server,
 - xorg-xinit,
 - xorg-xinput,
