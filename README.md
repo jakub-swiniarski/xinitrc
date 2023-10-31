@@ -10,4 +10,7 @@
 - awk.
 
 ## Usage
-Put the script in your home directory and use the **startx** command to run it.
+Put the script in your home directory and use this command to run it:
+```shell
+startx
+```
