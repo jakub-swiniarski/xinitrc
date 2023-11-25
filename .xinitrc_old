@@ -19,7 +19,7 @@ do
 	# cat /sys/class/thermal/thermal_zone*/type
 	# choose the one that outputs x86_pkg_temp
 	# 0 is a placeholder
-	CPU_TEMP="$(($(cat /sys/class/thermal/thermal_zone0/temp)/1000))C"
+	CPU_TEMP="$(($(cat /sys/class/thermal/thermal_zone0/temp)/1000))°C"
 	MEM="$(free | grep Mem | awk '{print int($3/$2 * 100.0)}')%"
 	LOCALTIME=$(date +"%a %d %B %Y %l:%M %p")
 
