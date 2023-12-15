@@ -11,6 +11,7 @@ xinput --set-prop 0 'libinput Accel Speed' 0
 
 # touchpad
 xinput --set-prop 0 'libinput Natural Scrolling Enabled' 1
+xinput --set-prop 0 'libinput Disable While Typing Enabled' 0
 xinput --set-prop 0 'libinput Tapping Enabled' 1
 xinput --set-prop 0 'libinput Accel Profile Enabled' 0, 1
 xinput --set-prop 0 'libinput Accel Speed' 0
