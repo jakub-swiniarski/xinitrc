@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 redshift -P -O 4500
 
